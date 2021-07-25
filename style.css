@@ -108,3 +108,19 @@
     .e-mail p {
         display: inline;
     }
+
+    section {
+        float: right;
+        padding:20px;
+        padding-right: 50px;
+        padding-bottom:100px;
+        background-color:rgba(115, 129, 141, 0.938);
+    }
+
+    header p {
+        font-size: 97%;
+    }
+
+    article {
+        text-align: justify;
+    }
