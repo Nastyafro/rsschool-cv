@@ -124,3 +124,26 @@
     article {
         text-align: justify;
     }
+    
+    footer {
+        background-color: rgba(228, 211, 211, 0.685);
+    }
+
+    .account p {
+        padding-top: 20px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .RS {
+        width: 150px;
+        height: 60px;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .account h4 {
+        text-align: center;
+        padding-top: 50px; 
+        padding-bottom: 20px;
+    }
