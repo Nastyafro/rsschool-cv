@@ -54,28 +54,28 @@
 
     }
 
+    /**Стили для блоков**/
     aside {
         float: left;
         padding:20px;
         background-color:rgba(36, 35, 35, 0.938);
     }
 
-    aside h3,
-    ul {
+    aside h3 {
         color: #cccccc;
+    }
+
+    aside ul {
+        color: #cccccc;
+        list-style: none;
     }
 
     aside p {
         color: #cccccc;
     }
 
-
     aside a {
         color: #cccccc;
-    }
-
-    ul {
-        list-style: none;
     }
 
     aside ul img{
@@ -108,7 +108,7 @@
     .e-mail p {
         display: inline;
     }
-
+    
     section {
         float: right;
         padding:20px;
@@ -124,7 +124,12 @@
     article {
         text-align: justify;
     }
-    
+
+    article ul {
+        padding-left: 20px;
+        list-style-type: circle;
+    }
+
     footer {
         background-color: rgba(228, 211, 211, 0.685);
     }
@@ -147,3 +152,7 @@
         padding-top: 50px; 
         padding-bottom: 20px;
     }
+
+
+
+
