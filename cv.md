@@ -17,3 +17,21 @@ I studied German at school, so I am studying English in parallel with RS. Now my
 * VS Code
 * Adobe Photoshop
 
+
+## Code example
+Coding in function findSimilarity. Function accept two parameters: str, a sentence contains some words, separated by spaces; word, a sample word.
+Task is to keep the words that are similar to the sample word, and to remove the other words.
+The similarity is defined as: the same length as the sample; the letter at the beginning and the end of word are same as the sample too.
+If there are no similar words in the sentence, should return an empty string.
+
+```
+function findSimilarity(str,word){
+  var regstr=word[0]                             //first letter
+          +word.slice(1,-1).replace(/./g,".")  //middle letters
+          +word.slice(-1);                     //last letter
+  var reg1=new RegExp("^"+regstr+"$");
+  return str.split(/ /).filter(x=> x.match(reg1)).join(" ");
+}
+```
+
+More examples from Codewars: https://www.codewars.com/users/Nastyafro/completed_solutions
