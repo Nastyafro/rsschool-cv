@@ -35,3 +35,8 @@ function findSimilarity(str,word){
 ```
 
 More examples from Codewars: https://www.codewars.com/users/Nastyafro/completed_solutions
+
+
+## Courses
+* RS School Course "JavaScript/Front-end. Stage 0" (in Progress)
+* JavaScript manual on https://justjavascript.com/
