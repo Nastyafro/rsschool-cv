@@ -9,3 +9,11 @@ I am a graduate of the Belarusian National Technical University with a degree in
 I like to solve logical problems and I want to apply this in writing code. I always try to perform the tasks set for myself responsibly, on time and efficiently. I will spend a lot of time and effort for this to succeed. 
 
 I studied German at school, so I am studying English in parallel with RS. Now my English level is A1+, every day I train my level in Duolingo, watch movies in English with subtitles and independently study with a textbook.
+
+
+## Skills and Proficiency
+* HTML5, CSS
+* JavaScript Basics
+* VS Code
+* Adobe Photoshop
+
