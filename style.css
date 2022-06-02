@@ -1,0 +1,163 @@
+/**Общие стили**/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    body {
+        box-sizing: content-box;
+        width: 960px;
+        margin: 20px auto 0 auto;
+        overflow: auto;
+        font-size: 1.2em;
+        background-color: #D3DFE2;       
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.425);     
+    }
+
+    main {
+        display: flex;
+        justify-content: center;     
+    }
+    
+    p {
+        padding: 0 0 20px 0;
+        line-height: 1.7em;
+    }
+
+    h1 {
+        margin: 0 0 5px 0;
+        padding-top: 15px;
+        font: normal 170%;
+    }
+    
+    h3 {       
+        margin: 0 0 15px 0;
+        padding: 15px 0 5px 0;
+        font-size: 120%;
+    }
+    
+    a {
+        text-decoration: underline;
+        color: #000000;
+    }
+        
+    hr {
+        margin-bottom: 15px;
+        border: solid 1px #dbd0d0;
+    }
+
+    pre {
+        tab-size: 1;
+        -o-tab-size: 10;
+
+    }
+
+    /**Стили для блоков**/
+    aside {
+        float: left;
+        padding:20px;
+        background-color:#2C6359;
+    }
+
+    aside h3 {
+        color: #cccccc;
+    }
+
+    aside ul {
+        color:#cccccc;
+        list-style: none;
+    }
+
+    aside p {
+        color: #cccccc;
+
+    }
+
+    aside p {
+        color: #cccccc;
+    }
+
+    aside a {
+        color: #cccccc;
+    }
+
+    aside ul img{
+        display: inline;
+        vertical-align: middle;
+    }
+
+    li {
+        line-height: 2.5;
+    }
+
+    .phone img {
+        display: inline;
+        vertical-align: middle;
+        width: 25px;
+        height: 25px;      
+    }
+
+    .phone p {
+        display: inline;
+    }
+
+    .e-mail img {
+        display: inline; 
+        vertical-align: middle;
+        width: 25px;
+        height: 25px;
+    }
+
+    .e-mail p {
+        display: inline;
+    }
+    
+    section {
+        float: right;
+        padding:20px;
+        padding-right: 20px;
+        padding-bottom:100px;
+        background-color:#9BB3AB;
+    }
+
+    header p {
+        font-size: 97%;
+    }
+
+    article {
+        text-align: justify;
+    }
+
+    article ul {
+        padding-left: 20px;
+        list-style-type: circle;
+    }
+
+    footer {
+        background-color: rgba(228, 211, 211, 0.685);
+    }
+
+    .account p {
+        padding-top: 20px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .RS {
+        width: 150px;
+        height: 60px;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .account h4 {
+        text-align: center;
+        padding-top: 50px; 
+        padding-bottom: 20px;
+    }
+
+    pre {
+        font-family:monospace;
+    }
