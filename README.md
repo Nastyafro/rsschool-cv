@@ -1,3 +1,3 @@
 # rsschool-cv
-https://Nastyafro.github.io/rsschool-cv/
-https://Nastyafro.github.io/rsschool-cv/cv
+* https://Nastyafro.github.io/rsschool-cv/
+* https://Nastyafro.github.io/rsschool-cv/cv
